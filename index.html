@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Your Name" />
+    <meta name="description" content="Boilerplate" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css"
+      integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>A2-Beetle</title>
+  </head>
+  <body>
+    <img src="./assets/beetle.png" class="main-img" alt="" />
+
+<nav class="navbar">
+  <div class="nav-left">
+    <span class="nav-logo"><h1>INSECT</h1></span>
+    <div class="nav-search">
+      <i class="ri-search-line"></i>
+      <input type="text" placeholder="Search...">
+    </div>
+  </div>
+  <div class="nav-right">
+    <a href="#">Home</a>
+    <a href="#">Shop</a>
+    <a href="#">About</a>
+    <a href="#">Gallery</a>
+    <a href="#">Contact</a>
+  </div>
+</nav>
+    <main>
+      <div class="left">
+        <h2>Classification</h2>
+        <div>
+          <ul class="classification-list">
+            <li>
+              <span class="cl-label"><span class="cl-dot"></span>Class:</span>
+              <span class="cl-value">Insecta</span>
+            </li>
+            <li>
+              <span class="cl-label"><span class="cl-dot"></span>Order:</span>
+              <span class="cl-value">Coleoptera</span>
+            </li>
+            <li>
+              <span class="cl-label"><span class="cl-dot"></span>Family:</span>
+              <span class="cl-value">Cerambycidae</span>
+            </li>
+            <li>
+              <span class="cl-label"
+                ><span class="cl-dot"></span>Sub-Family:</span
+              >
+              <span class="cl-value">Cerambycinae</span>
+            </li>
+            <li>
+              <span class="cl-label"><span class="cl-dot"></span>Tribe:</span>
+              <span class="cl-value">Callicromatini</span>
+            </li>
+            <li>
+              <span class="cl-label"><span class="cl-dot"></span>Genus:</span>
+              <span class="cl-value">Pachyteria</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right">
+        <h2>Pachyteria<br />equestris</h2>
+        <div style="display: grid; grid-template-columns: 1fr 2fr; align-items: center;">
+          <div >
+            <img src="./assets/beetle-small.png" style="border-right: 1.5px solid white" alt="" />
+          </div>
+
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <div class="dir">
+              <div class="dir" style="display: flex; gap: 1rem; padding: 0 2rem">
+                <i class="ri-map-pin-2-fill"></i>
+                <p>Locality: <br />Malaysia</p>
+              </div>
+            </div>
+            <div class="dir">
+              <div class="dir" style="display: flex; gap: 1rem; padding: 0 2rem">
+                <i class="ri-men-line"></i>
+                <p>Sex: <br />Male</p>
+              </div>
+            </div>
+            <div class="dir">
+              <div class="dir" style="display: flex;  gap: 1rem; padding: 0 2rem">
+                <i class="ri-ruler-line"></i>
+                <p>Size: <br />32mm / 12mm</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="price">
+          <h3>$5.99</h3>
+        </div>
+
+        <div class="toggle-wrap">
+          <div class="toggle-row">
+            <label class="switch">
+              <input type="checkbox" checked>
+              <span class="slider"></span>
+            </label>
+            <span class="toggle-label">View detailed antennae</span>
+          </div>
+          <div class="toggle-row">
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider"></span>
+            </label>
+            <span class="toggle-label">View underside</span>
+          </div>
+        </div>
+
+        <a href="#" class="btn">Add to collection</a>
+
+
+      </div>
+    </main>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
